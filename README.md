@@ -1,30 +1,50 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 26 - Frontend Tooling & React
-===
+# 26: Frontend Tooling & React
 
-## Submission Instructions
-* Follow the instructions in the "Lab Instructions" documentation in the reference folder of the class repository 
-  
-## Learning Objectives  
-* Students will be able to configure webpack to compile JS and SASS into a bundle
-* Students will be able to configure babel to transpile JSX and ES6 to ES5 javascript
-* Students will be able to create and render react components to the DOM
-* Students will be able to add event listeners to react components 
-* Students will be able to update react component state
+###### travis will be integrated in future labs, not for hello world lab
 
-#### Feature Tasks  
-Create the following component
+## Overview
 
-###### App
-* Should contain the entire application's view and state
-* Should have a property on the state called content 
-* Should create a view with the following display
-  * A heading with the title "Generate Cowsay Lorem"
-  * A Button that displays "click me"
-    * `onClick` the button should generate new content on the app state using cowsay and faker
-  * A pre tag that displays the App state (content)
+A "Moo World" react-app via cowsay-browser API.
 
-#### Stretch Goal 
-* add a select menu that enables you to change the type of cowfile currently being used
+#### Web features
 
-#### Documentation  
-Write a description of the project in your README.md
+In order to learn and demonstrate basic state with react, here are the working web features I setup:
+
+1. Generate a new moo message
+2. console.log current state of moo message (open chrome/moz devtools to see it)
+3. Select the cow of your choice
+4. increment / decrement counter
+
+### How To
+
+##### Start react app and refresh actively
+
+```
+npm run watch
+```
+
+### Tests Performed with Jest
+
+###### testing app.js
+
+##### myfile.js
+
+###### jest tests required for future labs, not moo world lab
+
+### Built With
+
+React, ES6, babel, eslint, etc.
+
+** Please see package.json to confirm dependency details.
+
+### Contributing
+
+Please feel free to contribute. Master branch auto merge locked for approval for non-contributors.
+
+### Versioning
+
+*n/a*
+
+### Authors
+
+![CF](http://i.imgur.com/7v5ASc8.png) **Benjamin West** 
